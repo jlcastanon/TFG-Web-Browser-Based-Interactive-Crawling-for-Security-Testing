@@ -120,7 +120,7 @@ class CLICKINGCRAWLER:
 
 
     def getvaluefromdictio(self,tag, name, type):
-        with open('/home/pepe/Desktop/repo_tool/tfg_pentesttool/scripts/docker_imgs/dictionaries/dictionary.csv') as csvfile:
+        with open('dictionary.csv') as csvfile:
             readCSV = csv.reader(csvfile, delimiter=',')
             for row in readCSV:
                 if row[0] == tag:
@@ -129,7 +129,7 @@ class CLICKINGCRAWLER:
                             return row[3]
 
     def getvaluefromdictio2(self,tag, type):
-        with open('/home/pepe/Desktop/repo_tool/tfg_pentesttool/scripts/docker_imgs/dictionaries/dictionary.csv') as csvfile:
+        with open('dictionary.csv') as csvfile:
             readCSV = csv.reader(csvfile, delimiter=',')
             for row in readCSV:
                 if row[0] == tag:
@@ -137,7 +137,7 @@ class CLICKINGCRAWLER:
                         return row[3]
 
     def getvaluefromdictio1(self,tag):
-        with open('/home/pepe/Desktop/repo_tool/tfg_pentesttool/scripts/docker_imgs/dictionaries/dictionary.csv') as csvfile:
+        with open('dictionary.csv') as csvfile:
             readCSV = csv.reader(csvfile, delimiter=',')
             for row in readCSV:
                 if row[0] == tag:

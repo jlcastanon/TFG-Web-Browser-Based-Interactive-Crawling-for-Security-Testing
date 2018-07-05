@@ -1,0 +1,12 @@
+input,username,text,userexample
+input,name,text,userexample
+input,txtName,text,userexample
+input,id,text,userexample
+input,ip,text,127.0.0.1
+input,NN,password,Passw000rd
+input,NN,PASSWORD,Passw000rd
+input,NN,submit,submit
+input,NN,SUBMIT,submit
+textarea,NN,NN,textexample
+input,NN,hidden,hidden
+input,userEmail,email,example@test.com
