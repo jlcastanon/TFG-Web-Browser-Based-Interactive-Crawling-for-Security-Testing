@@ -1,5 +1,5 @@
 # TFG-Web-Browser-Based-Interactive-Crawling-for-Security-Testing
-The project must be run under Python 3.5
+The project must be run under Python 3.5.
 The following libraries are needed:
 
 anytree	2.4.3	
