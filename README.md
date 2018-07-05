@@ -44,4 +44,7 @@ ZAP must be running on IP 127.0.0.1 and PORT 8081.
 Selenium WebDriver must be installed. Specifically Google Chrome WebDriver.
 Google Chrome WebDriver can be found here: http://chromedriver.chromium.org/getting-started
 
+Docker should also be installed.
+To run WebGoat: docker run -p 8080:8080 -t webgoat/webgoat-7.1
+
 Once everything is installed, running webgoattest.py should run the whole project
